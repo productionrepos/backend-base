@@ -15,7 +15,7 @@ class Server {
         this.pathsRoutes = {
             usuario: '/api/usuario'
         }
-        this.connectDB();
+        //this.connectDB();
         this.middlewares();
         this.routes();
     }
